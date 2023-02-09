@@ -1,0 +1,237 @@
+/* google font  */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;900&display=swap');
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+
+/* contact-area-one  */
+
+.contact-area-one{
+    height: 95vh;
+    background-image: url(../images/banner/banner1.png);
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0% 60%;
+}
+
+.contact-data{
+    width: 30%;
+    text-align: right;
+    padding-right: 10%;
+}
+
+.contact-data h1{
+    font-size: 50px;
+    font-weight: bolder;
+    font-weight: 900;
+    margin-bottom:20px;
+    
+}
+.contact-data p{
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom:20px;
+}
+
+button{
+    border: none;
+    width: 142px;
+    height: 49px;
+    background-color: orangered;
+    color: aliceblue;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.button a{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    color: aliceblue;
+}
+
+/* my-plan  */
+.my-plan-area h3{
+   font-size: 30px;
+   margin-top: 20px;
+}
+
+.my-plan-data-area{
+    padding: 5% 10%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.plan-data{
+    text-align: center;
+}
+
+.plan-data h4{
+    font-size: 25px;
+}
+.plan-data p{
+    font-size: 18px;
+}
+
+
+/* My-failures-area */
+.My-failures-area{
+    margin-top: 60px;
+}
+.My-failures-data{
+    display: flex;
+    justify-content: space-around;
+}
+
+.My-failures-img{
+    width: 40%;
+    height: 600px;
+}
+
+.My-failures-img img {
+    width: 70%;
+}
+
+.My-failures-info{
+    width: 40%;
+    height: 600px;
+    padding-top: 130px;
+}
+
+.My-failures-info h1{
+    width: 350px;
+    font-size: 45px;
+}
+.My-failures-info p{
+    width: 450px;
+    font-size: 16px;
+    padding: 20px 0px;
+}
+
+.My-failures-info ul li{
+    padding-top: 10px;
+}
+
+.icon{
+    color: rgb(10, 182, 82);
+    padding-right: 8px;
+}
+
+
+
+/* call-now-area */
+.call-button{
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    
+    background-color: aliceblue;
+
+}
+
+.call-button a{
+    color: #F15B22;
+    text-decoration: none;
+}
+
+.call-area{
+background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 90%),url("../images/watch.png");
+height: 300px;
+background-repeat: no-repeat;
+width: 80%;
+background-size: cover;
+margin-left:9%;
+border-radius: 10px;
+margin-bottom: 8%;
+margin-top: 140px;
+
+}
+
+.call-data{
+    padding-left: 80px;
+    padding-top: 80px;
+}
+
+.call-data h2{
+    font-size: 30px;
+    width: 320px;
+    padding-bottom: 15px;
+}
+
+/* ready-area */
+.ready-area{
+    text-align: center;
+    background-color: #F15B22;
+    height: 300px;
+}
+
+.ready-area h1{
+    line-height: 300px;
+    font-size: 60px;
+    text-transform: uppercase;
+}
+
+
+
+/* footer-area */
+
+footer{
+    background-color: rgb(24, 23, 23);
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-data-one{
+    width:40%;
+}
+
+.footer-data-one h4{
+    font-size: 30px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+.footer-data-one h5{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.footer-data-one p{
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+
+}
+.footer-data-one img{
+    padding-right: 20px;
+}
+
+
+.footer-data-two h4{
+    font-size: 30px;
+    padding-top: 100px;
+    padding-bottom: 30px;
+}
+
+.footer-data-two input{
+    background: none;
+    height: 45px;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 30px;
+}
